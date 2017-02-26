@@ -20,6 +20,8 @@ apt-get install -y wget curl python libtool-bin m4 pkg-config
 # exists here to save time on rebuilding if variable is changed
 ENV HB_BRANCH 0.10.5
 
+EXPOSE 80
+
 # grab source
 WORKDIR /usr/src
 RUN \
