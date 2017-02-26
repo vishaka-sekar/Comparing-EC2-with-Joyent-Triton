@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER danbo <dan@danbo.ca>
+MAINTAINER vishaka
 ENV DEBIAN_FRONTEND noninteractive
 
 # install handbrake cli dependencies
